@@ -1,0 +1,42 @@
+<html>
+<head>
+<script>
+function iOS() {
+
+  var iDevices = [
+    'iPad Simulator',
+    'iPhone Simulator',
+    'iPod Simulator',
+    'iPad',
+    'iPhone',
+    'iPod'
+  ];
+
+  if (!!navigator.platform) {
+    while (iDevices.length) {
+      if (navigator.platform === iDevices.pop()){ return true; }
+    }
+  }
+
+  return false;
+}
+
+function android() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  if (/android/i.test(userAgent)) {
+         return true;
+  }
+
+  return false;
+}
+
+if(iOS()){
+    window.location="https://itunes.apple.com";
+}else if(android()){
+  window.location="https://play.google.com";
+}else{
+  window.location="https://svizzr.com";
+}
+</script>
+</head>
+</html>
