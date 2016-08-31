@@ -559,7 +559,7 @@ select {
   position: relative;
   width: 320px;
   height: 600px;
-  background-image: url('../images/android/android-black.png');
+  background-image: url('../images/iphone/android.png');
   background-repeat: no-repeat;
   background-position: center top;
 }
