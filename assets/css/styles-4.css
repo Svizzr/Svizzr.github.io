@@ -85,9 +85,13 @@ blockquote {
 .social-icons li.row-end {
   margin-right: 0;
 }
+.fb{
+  color: #3b5998;
+}
+.tw{color: #00aced;}
 .social-icons a {
   display: inline-block;
-  background: #1e527f;
+  /*background: #1e527f;*/
   width: 48px;
   height: 48px;
   text-align: center;
@@ -103,17 +107,21 @@ blockquote {
   margin-right: 8px;
   float: left;
 }
-.social-icons a:hover {
-  background: #143856;
+.social-icons a:hover{
+  /*R: 87 G: 210 B: 140*/
+  background: rgb(87,152,140);
 }
 .social-icons a .fa {
-  color: #fff;
+  /*color: #fff;*/
 }
+.yt{color: #bb0000;}
+.gp{color: #dd4b39;}
 .social-icons a .fa:before {
   font-size: 26px;
   text-align: center;
   padding: 0;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -275,9 +283,9 @@ select {
 .header {
   padding: 15px 0;
   z-index: 9999;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
 
   background: url('../images/patterns/pattern-2.png') no-repeat center center fixed;
     -webkit-background-size: cover;
