@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "836ZS26RJG.com.svizzr.svizzr",
+                "paths": [ "/profiles/*", "/competitions/*", "/campaigns/*", "/images/*"]
+            }
+        ]
+    }
+}
